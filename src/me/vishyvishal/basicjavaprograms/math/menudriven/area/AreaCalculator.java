@@ -5,7 +5,7 @@ package me.vishyvishal.basicjavaprograms.math.menudriven.area;
 import java.util.Scanner;
 
 public class AreaCalculator {
-    public static void main(String args[]) {
+    public static void main(String []args) {
 
         Scanner in = new Scanner(System.in);
         double r,ra,ca,sa,side,l,b; //todo replace with better variables
