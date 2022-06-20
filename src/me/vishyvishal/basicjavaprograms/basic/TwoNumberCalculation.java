@@ -20,8 +20,8 @@ public class TwoNumberCalculation {
         select_operation = in.nextInt();
 
         if (select_operation == 1) {
-            System.out.println("Enter 1 if your math problem involves decimals.");
-            System.out.println("Else enter 2.");
+            System.out.println("Enter 1 if your math problem involves whole numbers(including negative numbers)");
+            System.out.println("Else enter 2 for decimal numbers.");
             integer_check = in.nextInt();
             if (integer_check == 1) {
                 System.out.println("Enter two numbers to add");
@@ -30,17 +30,17 @@ public class TwoNumberCalculation {
                 answer_of_non_decimal_numbers = number1 + number2;
                 System.out.println("The sum of numbers are = " + answer_of_non_decimal_numbers);
             } else if (integer_check == 2) {
-                System.out.println("Enter two double numbers to add.");
+                System.out.println("Enter two decimal numbers to add.");
                 double_number1 = in.nextDouble();
                 double_number2 = in.nextDouble();
                 answer_of_decimal_numbers = double_number1 + double_number2;
-                System.out.println("The sum of double numbers is = " + answer_of_decimal_numbers);
+                System.out.println("The sum of decimal numbers is = " + answer_of_decimal_numbers);
 
             }
         }
         else if (select_operation == 2) {
-            System.out.println("Enter 1 if your math problem involves decimals.");
-            System.out.println("Else enter 2.");
+            System.out.println("Enter 1 if your math problem involves whole numbers(including negative numbers)");
+            System.out.println("Else enter 2 for decimal numbers.");
             integer_check = in.nextInt();
             if (integer_check == 1) {
                 System.out.println("Enter two numbers to subtract");
@@ -49,17 +49,17 @@ public class TwoNumberCalculation {
                 answer_of_non_decimal_numbers = number1 - number2;
                 System.out.println("The difference of numbers are = " + answer_of_non_decimal_numbers);
             } else if (integer_check == 2) {
-                System.out.println("Enter two double numbers to subtract.");
+                System.out.println("Enter two decimal numbers to subtract.");
                 double_number1 = in.nextDouble();
                 double_number2 = in.nextDouble();
                 answer_of_decimal_numbers = double_number1 - double_number2;
-                System.out.println("The difference of double numbers is = " + answer_of_decimal_numbers);
+                System.out.println("The difference of decimal numbers is = " + answer_of_decimal_numbers);
 
             }
         }
         else if (select_operation == 3) {
-            System.out.println("Enter 1 if your math problem involves decimals.");
-            System.out.println("Else enter 2.");
+            System.out.println("Enter 1 if your math problem involves whole numbers(including negative numbers)");
+            System.out.println("Else enter 2 for decimal numbers.");
             integer_check = in.nextInt();
             if (integer_check == 1) {
                 System.out.println("Enter two numbers to multiply");
@@ -68,17 +68,17 @@ public class TwoNumberCalculation {
                 answer_of_non_decimal_numbers = number1 * number2;
                 System.out.println("The product of numbers are = " + answer_of_non_decimal_numbers);
             } else if (integer_check == 2) {
-                System.out.println("Enter two double numbers to multiply.");
+                System.out.println("Enter two decimal numbers to multiply.");
                 double_number1 = in.nextDouble();
                 double_number2 = in.nextDouble();
                 answer_of_decimal_numbers = double_number1 * double_number2;
-                System.out.println("The product of double numbers is = " + answer_of_decimal_numbers);
+                System.out.println("The product of decimal numbers is = " + answer_of_decimal_numbers);
 
             }
         }
         else if (select_operation == 4) {
-            System.out.println("Enter 1 if your math problem involves decimals.");
-            System.out.println("Else enter 2.");
+            System.out.println("Enter 1 if your math problem involves whole numbers(including negative numbers)");
+            System.out.println("Else enter 2 for decimal numbers.");
             integer_check = in.nextInt();
             if (integer_check == 1) {
                 System.out.println("Enter two numbers to divide");
@@ -87,11 +87,11 @@ public class TwoNumberCalculation {
                 answer_of_non_decimal_numbers = number1 / number2;
                 System.out.println("The difference of numbers are = " + answer_of_non_decimal_numbers);
             } else if (integer_check == 2) {
-                System.out.println("Enter two double numbers to add.");
+                System.out.println("Enter two decimal numbers to add.");
                 double_number1 = in.nextDouble();
                 double_number2 = in.nextDouble();
                 answer_of_decimal_numbers = double_number1 / double_number2;
-                System.out.println("The difference of double numbers is = " + answer_of_decimal_numbers);
+                System.out.println("The difference of decimal numbers is = " + answer_of_decimal_numbers);
 
             }
         }
