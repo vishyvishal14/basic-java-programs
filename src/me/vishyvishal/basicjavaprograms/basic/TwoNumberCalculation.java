@@ -87,7 +87,7 @@ public class TwoNumberCalculation {
                 answer_of_non_decimal_numbers = number1 / number2;
                 System.out.println("The difference of numbers are = " + answer_of_non_decimal_numbers);
             } else if (integer_check == 2) {
-                System.out.println("Enter two decimal numbers to add.");
+                System.out.println("Enter two decimal numbers to divide");
                 double_number1 = in.nextDouble();
                 double_number2 = in.nextDouble();
                 answer_of_decimal_numbers = double_number1 / double_number2;
