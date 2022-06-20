@@ -1,5 +1,6 @@
 //DO NOT COPY PACKAGE SENTENCE IF YOU WANT TO TRY THIS ON BLUEJ COPY FROM THE IMPORT STATEMENT
 //todo comment all of this thing of what the code does so people understand what is going on!!!!
+//in short simple program made complex cause its me!
 package me.vishyvishal.basicjavaprograms.basic;
 
 import java.util.Scanner;
