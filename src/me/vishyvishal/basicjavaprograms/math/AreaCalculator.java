@@ -1,6 +1,6 @@
 //This program is written using switch case. There will be quoted conversions to equivalent if-else-if case structures.
 
-package me.vishyvishal.basicjavaprograms.math.menudriven.area;
+package me.vishyvishal.basicjavaprograms.math;
 
 import java.util.Scanner;
 
