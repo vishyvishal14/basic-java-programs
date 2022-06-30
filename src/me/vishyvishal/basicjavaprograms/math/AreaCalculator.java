@@ -2,7 +2,9 @@
 
 package me.vishyvishal.basicjavaprograms.math;
 
+
 import java.util.Scanner;
+
 
 public class AreaCalculator {
     public static void main(String []args) {
@@ -10,7 +12,7 @@ public class AreaCalculator {
         Scanner in = new Scanner(System.in);
         double r,ra,ca,sa,side,l,b; //todo replace with better variables
 
-        System.out.println("Enter 1 to calculate area of circle");
+        System.out.println(BOLD +"Enter 1 to calculate area of circle");
         System.out.println("Enter 2 to calculate area of square");
         System.out.println("Enter 3 to calculate area of rectangle");
         System.out.print("Enter your choice: ");
