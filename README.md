@@ -9,4 +9,4 @@ IDE Used: IntelliJ Idea
 Definetely will get updated
 
 Click on link to see the code!
-https://github.com/vishyvishal14/basic-programs/tree/java-main/src/me/vishyvishal/basicjavaprograms
+https://github.com/vishalpj14/basic-programs/tree/java-main/src/me/vishalpj/basicjavaprograms
