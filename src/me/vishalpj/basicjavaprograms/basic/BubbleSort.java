@@ -1,4 +1,4 @@
-package me.vishalpj.basicjavaprograms.board;
+package me.vishalpj.basicjavaprograms.basic;
 
 import java.util.Scanner;
 
