@@ -1,5 +1,7 @@
 package me.vishalpj.basicjavaprograms.basic;
 
+import me.vishalpj.basicjavaprograms.dependencies.Colour;
+
 import java.util.Scanner;
 
 public class Matrices {
@@ -27,7 +29,7 @@ public class Matrices {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 c[i][j] = a[i][j] + b[i][j];
-                System.out.print(c[i][j] + " ");
+                System.out.print(Colour.BLACK+"|"+" "+Colour.GREEN +c[i][j] + " ");
             }
             System.out.println();
         }
