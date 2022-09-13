@@ -38,7 +38,6 @@ public class BubbleSort {
                     t=p[j];
                     p[j]=p[j+1];
                     p[j+1]=t;
-
                 }
 
             }
@@ -62,8 +61,6 @@ public class BubbleSort {
             System.out.print(" ");
         }
         System.out.println();
-
-
 
 
     }
