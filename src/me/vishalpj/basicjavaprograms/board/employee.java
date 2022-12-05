@@ -1,6 +1,5 @@
 package me.vishalpj.basicjavaprograms.board;
 
-import me.vishalpj.basicjavaprograms.dependencies.Colour;
 
 import java.util.Scanner;
 
@@ -11,16 +10,15 @@ public class employee {
     int basic;
     void accept(){
         Scanner in=new Scanner(System.in);
-        System.out.println(Colour.BLACK+"_____________________________________________________________________________________________________________"+Colour.RESET);
-        System.out.println(Colour.BLUE+"Enter the employee name.");
+        System.out.println("Enter the employee name.");
         employeename=in.nextLine();
-        System.out.println(Colour.BLUE+"Enter employee number.");
+        System.out.println("Enter employee number.");
         eno=in.next();
-        System.out.println(Colour.BLUE+"Enter age.");
+        System.out.println("Enter age.");
         age=in.nextInt();
-        System.out.println(Colour.BLUE+"Enter salary.");
+        System.out.println("Enter salary.");
         basic=in.nextInt();
-        System.out.println(Colour.BLACK+"_____________________________________________________________________________________________________________"+Colour.RESET);
+
 
     }
     void calculate(){
@@ -35,14 +33,14 @@ public class employee {
 
     }
     void print(){
-        System.out.println(Colour.BLUE+"Employee number: "+Colour.GREEN+eno);
-        System.out.println(Colour.BLUE+"Employee name: "+Colour.GREEN+employeename);
-        System.out.println(Colour.BLUE+"Employee age: "+Colour.GREEN+age);
+        System.out.println("Employee number: "+eno);
+        System.out.println("Employee name: "+employeename);
+        System.out.println("Employee age: "+age);
         if(age>50){
-            System.out.println(Colour.GREEN+"As your age is above 50 years, you will get additional 5000/-");
+            System.out.println("As your age is above 50 years, you will get additional 5000/-");
         }
-        System.out.println(Colour.BLUE+"Employee's basic salary: "+Colour.GREEN+basic);
-        System.out.println(Colour.BLUE+"Employee's net pay: "+Colour.GREEN+net);
+        System.out.println("Employee's basic salary: "+basic);
+        System.out.println("Employee's net pay: "+net);
 
     }
     public static void main(String[] args){
