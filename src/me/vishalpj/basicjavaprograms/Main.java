@@ -1,11 +1,16 @@
 package me.vishalpj.basicjavaprograms;
 
-//todo
-//organize the whole structure todo
+import me.vishalpj.basicjavaprograms.*;
+import me.vishalpj.basicjavaprograms.basic.BubbleSort;
+import me.vishalpj.basicjavaprograms.board.DiscordWalaPattern;
+import me.vishalpj.basicjavaprograms.board.employee;
+
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("Hello World!");
+        employee ob=new employee();
+        ob.main();
     }
 }

@@ -28,6 +28,7 @@ public class employee {
         net=basic+hra+da-pf;
         if(age>50){
             net=net+5000;
+            
         }
 
 
@@ -43,7 +44,7 @@ public class employee {
         System.out.println("Employee's net pay: "+net);
 
     }
-    public static void main(String[] args){
+    public static void main(){
         employee ob=new employee();
         ob.accept();
         ob.calculate();
