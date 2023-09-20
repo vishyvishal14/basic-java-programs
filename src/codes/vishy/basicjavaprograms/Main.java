@@ -1,6 +1,5 @@
 package codes.vishy.basicjavaprograms;
 
-import me.vishalpj.basicjavaprograms.*;
 import codes.vishy.basicjavaprograms.board.employee;
 
 public class Main {
