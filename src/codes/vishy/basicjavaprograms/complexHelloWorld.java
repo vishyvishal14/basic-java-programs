@@ -17,43 +17,50 @@ public class complexHelloWorld {
 
     }
     static void characterHandler(char chr) throws InterruptedException {
-        if(Character.isLetterOrDigit(chr)){
-            if(Character.isLetter(chr)){
-                if(Character.isUpperCase(chr)){
-                    for(int i=65;i<=((int)chr);i++){
-                        System.out.println(word+((char)i));
+        if(Character.isLetterOrDigit(chr)) {
+            if (Character.isLetter(chr)) {
+                if (Character.isUpperCase(chr)) {
+                    for (int i = 65; i <= ((int) chr); i++) {
+                        System.out.println(word + ((char) i));
                         timeDelay();
                     }
-                    word=word+chr;
+                    word = word + chr;
                 }
-                if(Character.isLowerCase(chr)){
-                    for(int i=97;i<=((int)chr);i++){
-                        System.out.println(word+((char)i));
+                if (Character.isLowerCase(chr)) {
+                    for (int i = 97; i <= ((int) chr); i++) {
+                        System.out.println(word + ((char) i));
                         timeDelay();
                     }
-                    word=word+chr;
+                    word = word + chr;
                 }
 
             }
-            if(Character.isDigit(chr)){
-                for(int i=48;i<=((int)chr);i++){
-                    System.out.println(word+((char)i));
+            if (Character.isDigit(chr)) {
+                for (int i = 48; i <= ((int) chr); i++) {
+                    System.out.println(word + ((char) i));
                     timeDelay();
                 }
-                word=word+chr;
+                word = word + chr;
             }
 
-        }
-        if(Character.isWhitespace(chr)){
+        }else if (Character.isWhitespace(chr)){
             System.out.println(word+chr);
             timeDelay();
             word=word+chr;
 
+        }else{
+            for(int i=33;i<=((int)chr);i++){
+                System.out.println(word + ((char) i));
+                timeDelay();
+
+
+            }
+            word=word+chr;
         }
 
     }
     static void timeDelay() throws InterruptedException {
-        TimeUnit.MILLISECONDS.sleep(100);
+        TimeUnit.MILLISECONDS.sleep(8);
 
     }
     public static void main(String args[]) throws InterruptedException {
