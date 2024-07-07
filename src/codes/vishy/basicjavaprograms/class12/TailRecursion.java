@@ -1,3 +1,5 @@
+package codes.vishy.basicjavaprograms.class12;
+
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 

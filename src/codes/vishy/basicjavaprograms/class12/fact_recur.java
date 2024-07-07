@@ -1,4 +1,8 @@
+package codes.vishy.basicjavaprograms.class12;
+
 import java.util.*;
+
+
 
 class fact_recur{
 

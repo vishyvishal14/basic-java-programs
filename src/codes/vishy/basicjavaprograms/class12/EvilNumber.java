@@ -1,4 +1,5 @@
- import java.util.*;
+package codes.vishy.basicjavaprograms.class12;
+import java.util.*;
 
 public class EvilNumber{
     public static void main(String args[]){

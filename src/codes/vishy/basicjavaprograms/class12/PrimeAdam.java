@@ -1,3 +1,5 @@
+package codes.vishy.basicjavaprograms.class12;
+
 import java.util.Scanner;
 public class PrimeAdam {
     public static void main(String args[]){

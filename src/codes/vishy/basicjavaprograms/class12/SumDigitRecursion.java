@@ -1,4 +1,6 @@
-        import java.util.*;
+package codes.vishy.basicjavaprograms.class12;
+
+import java.util.*;
 
 public class SumDigitRecursion{
     int dig(int n){

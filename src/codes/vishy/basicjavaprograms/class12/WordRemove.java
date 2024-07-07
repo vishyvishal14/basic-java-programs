@@ -1,4 +1,5 @@
 //psg 269 prog 7
+package codes.vishy.basicjavaprograms.class12;
 import java.util.*;
 public class WordRemove{
     public static void main(String args[]){

@@ -1,4 +1,5 @@
 // page 448 qn 8
+package codes.vishy.basicjavaprograms.class12;
 
 import java.util.Scanner;
 

@@ -1,4 +1,5 @@
 // pg 447 qn 12
+package codes.vishy.basicjavaprograms.class12;
 
 import java.util.*;
 

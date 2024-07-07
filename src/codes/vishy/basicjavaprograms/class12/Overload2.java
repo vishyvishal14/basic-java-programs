@@ -1,5 +1,7 @@
 // pg 393 qn 10
 
+package codes.vishy.basicjavaprograms.class12;
+
 import java.util.Scanner;
 
 public class Overload2{

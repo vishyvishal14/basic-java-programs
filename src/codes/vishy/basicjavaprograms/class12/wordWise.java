@@ -1,5 +1,7 @@
 // page 451 program 20
 
+package codes.vishy.basicjavaprograms.class12;
+
 import java.util.Scanner;
 
 public class wordWise{

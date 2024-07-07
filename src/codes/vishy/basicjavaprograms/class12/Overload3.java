@@ -1,5 +1,5 @@
 // page 395 qn 24
-
+package codes.vishy.basicjavaprograms.class12;
 import java.util.Scanner;
 
 public class Overload3{

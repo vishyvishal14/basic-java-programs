@@ -1,5 +1,5 @@
 // program number  page number 393
-
+package codes.vishy.basicjavaprograms.class12;
 import java.util.concurrent.TimeUnit;
 import java.util.Scanner;
 
